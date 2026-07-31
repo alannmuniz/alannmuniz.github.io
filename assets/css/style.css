@@ -1,12 +1,12 @@
 :root {
   --ink: #21182b;
-  --muted: #6f647a;
-  --green: #5b2a86;
-  --green-2: #7a45a5;
+  --muted: #6f6378;
+  --green: #4b256d;
+  --green-2: #71439a;
   --cream: #f4eef8;
   --paper: #fffaff;
-  --line: #ded3e6;
-  --accent: #9b5fc0;
+  --line: #ded3e5;
+  --accent: #9a5a8a;
   --shadow: 0 18px 50px rgba(91, 42, 134, 0.12);
   --radius: 18px;
   --shell: 1180px;
