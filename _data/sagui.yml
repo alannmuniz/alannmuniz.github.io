@@ -1,0 +1,89 @@
+- number: 1
+  speaker: "Aron Simis"
+  affiliation: "UFPE"
+  title: "Aspectos de uma abordagem algébrica de campos vetoriais"
+
+- number: 2
+  speaker: "Rodrigo Gondim"
+  affiliation: "UFRPE"
+  title: "On higher jacobians, Laplace equations and Lefschetz properties"
+
+- number: 3
+  speaker: "Douglas Queiroz"
+  affiliation: "IFPB"
+  title: "Regularity of Rees algebras and application to a H. Dao problem"
+
+- number: 4
+  speaker: "Thiago Fiel"
+  affiliation: "UFPE"
+  title: "Buchsbaum–Eisenbud complexes in a Koszul–Čech spectral sequence"
+
+- number: 5
+  speaker: "Bárbara Costa"
+  affiliation: "UFRPE"
+  title: "Propriedades de Lefschetz da artianização quadrática de Stanley–Reisner e de sua idealização"
+
+- number: 6
+  speaker: "Lenin Bezerra"
+  affiliation: "UFPE"
+  title: "Propriedades de Lefschetz para álgebras de Gorenstein Artinianas de codimensão quatro"
+
+- number: 7
+  speaker: "Ugo Bruzzo"
+  affiliation: "SISSA"
+  title: "Super Grothendieck–Riemann–Roch and applications"
+
+- number: 8
+  speaker: "Letterio Gatto"
+  affiliation: "Politecnico di Torino"
+  title: "Brincando com derivações da Álgebra Exterior"
+
+- number: 9
+  speaker: "Tomás S. R. Silva"
+  affiliation: "UNICAMP"
+  title: "From Theory to Computation: Unraveling Hyperplane Arrangements"
+
+- number: 10
+  speaker: "Thiago Dias Oliveira Silva"
+  affiliation: "UFRPE"
+  title: "The Veronese variety associated with Dziobek central configurations"
+
+- number: 11
+  speaker: "Eudes Naziazeno"
+  affiliation: "UFPE"
+  title: "Mas se a parte faz o todo, sendo parte, não se diga que é parte, sendo todo"
+
+- number: 12
+  speaker: "Anne C. C. de Albuquerque"
+  affiliation: "UFMG"
+  title: "Sobre Curvas Racionais e Instantons"
+
+- number: 13
+  speaker: "Fabio Arceu"
+  affiliation: "UFPB"
+  title: "Crepant resolutions of Gorenstein abelian quotient singularities"
+
+- number: 14
+  speaker: "João Paulo Costalonga"
+  affiliation: "UFES"
+  title: "Propriedades de Lefschetz em Álgebras de Estruturas Combinatórias"
+
+- number: 15
+  speaker: "Aislan Fontes"
+  affiliation: "UFS"
+  title: "Classification of Monads and Moduli Components of Stable Rank-two Bundles with c1 = −1 and c2 = 10"
+
+- number: 16
+  speaker: "Geisa Gama"
+  affiliation: "UFPE"
+  title: "Codimension two perfect monomial ideals"
+
+- number: 17
+  speaker: "Kézia Meste"
+  affiliation: "UFPE"
+  title: "Propriedades de Lefschetz para álgebras Artinianas Gorenstein de codimensão 4"
+
+- number: 18
+  speaker: "Raphael Omena"
+  affiliation: "UFC"
+  title: "Sobre a Invariância do Número de Milnor"

@@ -1,0 +1,15 @@
+{% assign p = include.item %}
+<article class="publication">
+  <div class="publication-year">{{ p.year }}</div>
+  <div class="publication-body">
+    <h3>{{ p.title }}</h3>
+    <p class="authors">{{ p.authors }}</p>
+    {% if p.venue %}
+      <p class="venue"><em>{{ p.venue }}</em>{% if p.note %}, {{ p.note }}{% endif %}.</p>
+    {% endif %}
+    <div class="paper-links">
+      {% if p.arxiv %}<a href="{{ p.arxiv }}">arXiv</a>{% endif %}
+      {% if p.doi %}<a href="{{ p.doi }}">DOI</a>{% endif %}
+    </div>
+  </div>
+</article>

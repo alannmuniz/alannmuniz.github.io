@@ -1,0 +1,94 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="shell hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Algebraic and complex geometry</p>
+      <h1>Alan Muniz</h1>
+      <p class="lead">Professor at the Department of Mathematics, Universidade Federal de Pernambuco.</p>
+      <p class="hero-text">
+        My research concerns holomorphic distributions and foliations, moduli spaces,
+        sheaves, parabolic geometry, and varieties of tensors.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="{{ '/publications/' | relative_url }}">View publications</a>
+        <a class="button secondary" href="{{ '/research/' | relative_url }}">Research interests</a>
+      </div>
+      <div class="contact-strip">
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+        <a href="{{ site.lattes_url }}">Lattes CV</a>
+      </div>
+    </div>
+
+    <aside class="profile-card">
+      <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Portrait of Alan Muniz">
+      <div>
+        <strong>Alan Muniz</strong>
+        <span>Department of Mathematics</span>
+        <span>CCEN · UFPE</span>
+        <span>Recife, Brazil</span>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Current work</p>
+        <h2>Preprints</h2>
+      </div>
+      <a class="text-link" href="{{ '/publications/' | relative_url }}">All papers →</a>
+    </div>
+    <div class="card-grid">
+      {% for paper in site.data.preprints limit: 3 %}
+        <article class="paper-card">
+          <span class="tag">{{ paper.year }} · Preprint</span>
+          <h3>{{ paper.title }}</h3>
+          <p>{{ paper.authors }}</p>
+          <a href="{{ paper.arxiv }}">Read on arXiv →</a>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-tinted">
+  <div class="shell">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Research</p>
+        <h2>Areas of interest</h2>
+      </div>
+    </div>
+    <div class="interest-grid">
+      <div><span>01</span><h3>Foliations and distributions</h3><p>Geometry, singularities, automorphisms, and moduli.</p></div>
+      <div><span>02</span><h3>Sheaves and moduli</h3><p>Vector bundles, reflexive sheaves, and related parameter spaces.</p></div>
+      <div><span>03</span><h3>Parabolic geometry</h3><p>Parabolic bundles and logarithmic connections on curves.</p></div>
+      <div><span>04</span><h3>Geometry of tensors</h3><p>Tensor varieties and Euclidean distance degree.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell">
+    <div class="split-panel">
+      <div>
+        <p class="eyebrow">Seminar</p>
+        <h2>SAGüi</h2>
+        <p>
+          A fortnightly seminar of the Commutative Algebra and Algebraic Geometry group
+          at the Department of Mathematics of UFPE.
+        </p>
+        <a class="button secondary" href="{{ '/sagui/' | relative_url }}">Browse past talks</a>
+      </div>
+      <div class="seminar-stat">
+        <strong>{{ site.data.sagui | size }}</strong>
+        <span>archived editions</span>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,18 @@
+title: Alan Muniz
+description: Academic webpage of Alan Muniz — algebraic geometry, complex geometry, foliations, distributions, moduli spaces, sheaves, and tensors.
+url: "https://alannmuniz.github.io"
+baseurl: ""
+lang: en
+timezone: America/Recife
+email: alan.nmuniz@ufpe.br
+github_username: alannmuniz
+lattes_url: "http://lattes.cnpq.br/3302657608872070"
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
