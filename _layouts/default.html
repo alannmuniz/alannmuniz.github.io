@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description | escape }}">
-  <meta name="theme-color" content="#6f1686">
+  <meta name="theme-color" content="#173f3a">
 
   <meta property="og:type" content="website">
   <meta property="og:title" content="{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}">
@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <script defer src="{{ '/assets/js/main.js' | relative_url }}"></script>
 </head>
-<body{% if page.url == "/" %} class="home-page"{% endif %}>
+<body>
   {% include header.html %}
   <main id="main-content">
     {{ content }}
