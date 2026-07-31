@@ -1,38 +1,46 @@
 ---
 layout: default
 ---
-<div class="original-home">
-  <div class="shell home-column">
+<div class="portfolio-home">
+  <section class="home-banner" aria-labelledby="home-name">
+    <div class="home-banner-shade"></div>
 
-    <section class="home-intro" aria-labelledby="home-name">
-      <img
-        class="home-portrait"
-        src="{{ '/assets/images/profile.jpg' | relative_url }}"
-        alt="Portrait of Alan Muniz">
-
-      <div class="home-identity">
-        <h1 id="home-name">Alan Muniz</h1>
-        <p>Professor</p>
-        <p>Department of Mathematics</p>
-        <p>Centro de Ciências Exatas e da Natureza (CCEN)</p>
-        <p>Universidade Federal de Pernambuco (UFPE)</p>
-        <p class="home-email">
-          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-        </p>
-        <p class="home-profile-links">
-          <a href="{{ site.lattes_url }}">Lattes CV</a>
-          <span aria-hidden="true">·</span>
-          <a href="https://github.com/{{ site.github_username }}">GitHub</a>
-        </p>
+    <div class="shell home-banner-grid">
+      <div class="home-photo-frame">
+        <img
+          src="{{ '/assets/images/home-profile.jpg' | relative_url }}"
+          alt="Portrait of Alan Muniz">
       </div>
-    </section>
 
-    <section class="home-section">
+      <div class="home-banner-copy">
+        <p class="home-role">Professor</p>
+        <h1 id="home-name">Alan Muniz</h1>
+
+        <div class="home-affiliation">
+          <p>Department of Mathematics</p>
+          <p>Centro de Ciências Exatas e da Natureza (CCEN)</p>
+          <p>Universidade Federal de Pernambuco (UFPE)</p>
+        </div>
+
+        <a class="home-email-link" href="mailto:{{ site.email }}">{{ site.email }}</a>
+
+        <div class="home-contact-links" aria-label="Profile links">
+          <a href="{{ site.lattes_url }}">Lattes CV</a>
+          <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+          <a href="{{ '/cv/' | relative_url }}">Academic profile</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="shell home-main">
+
+    <section class="home-content-section">
       <h2>Research interests</h2>
       <p>
-        I am a researcher in algebraic and complex geometry, focusing on
+        I am a researcher in Algebraic and Complex geometries focusing on
         distributions and foliations, moduli of (parabolic) sheaves, and tensors.
-        Some of my topics of interest are:
+        Some of my topics of interest are the following:
       </p>
       <ul>
         <li>Automorphism groups of holomorphic distributions and foliations;</li>
@@ -43,52 +51,50 @@ layout: default
       </ul>
     </section>
 
-    <section class="home-section">
-      <div class="home-section-heading">
+    <section class="home-content-section">
+      <div class="home-section-title">
         <h2>Publications</h2>
-        <a href="{{ '/publications/' | relative_url }}">Dedicated publications page</a>
+        <a href="{{ '/publications/' | relative_url }}">Full publications page</a>
       </div>
 
       {% assign current_year = "" %}
       {% for paper in site.data.publications %}
         {% unless paper.year == current_year %}
-          <h3 class="home-year">{{ paper.year }}</h3>
+          <h3 class="publication-year-heading">{{ paper.year }}</h3>
           {% assign current_year = paper.year %}
         {% endunless %}
 
-        <article class="home-paper">
+        <article class="plain-publication">
           <p>
             {% if paper.arxiv %}
-              <a class="home-paper-title" href="{{ paper.arxiv }}">{{ paper.title }}</a>
+              <a class="plain-publication-title" href="{{ paper.arxiv }}">{{ paper.title }}</a>.
             {% else %}
-              <span class="home-paper-title">{{ paper.title }}</span>
+              <span class="plain-publication-title">{{ paper.title }}</span>.
             {% endif %}
-            <span class="home-paper-details">
-              {{ paper.authors }}.
-              {% if paper.venue %}<em>{{ paper.venue }}</em>{% endif %}
-              {% if paper.note %}, {{ paper.note }}{% endif %}.
-            </span>
-            {% if paper.doi %}<a class="home-paper-link" href="{{ paper.doi }}">DOI</a>{% endif %}
+            {{ paper.authors }}.
+            {% if paper.venue %}<em>{{ paper.venue }}</em>{% endif %}
+            {% if paper.note %}, {{ paper.note }}{% endif %}.
+            {% if paper.doi %}<a class="compact-link" href="{{ paper.doi }}">DOI</a>{% endif %}
           </p>
         </article>
       {% endfor %}
     </section>
 
-    <section class="home-section">
+    <section class="home-content-section">
       <h2>Preprints</h2>
-      <ul class="home-simple-list">
+      <ul class="home-link-list">
         {% for paper in site.data.preprints %}
           <li>
-            <a href="{{ paper.arxiv }}">{{ paper.title }}</a>
-            <span>({{ paper.year }}) — {{ paper.authors }}.</span>
+            <a href="{{ paper.arxiv }}">{{ paper.title }}</a>.
+            {{ paper.authors }} ({{ paper.year }}).
           </li>
         {% endfor %}
       </ul>
     </section>
 
-    <section class="home-section">
+    <section class="home-content-section">
       <h2>Other</h2>
-      <ul class="home-simple-list">
+      <ul class="home-link-list">
         <li>
           Contributed to
           <a href="https://arxiv.org/abs/2508.12757"><em>BRIDGES Lectures: G2 in action, and a mathematical theory of exceptions</em></a>
@@ -102,9 +108,9 @@ layout: default
       </ul>
     </section>
 
-    <section class="home-section">
+    <section class="home-content-section">
       <h2>PhD thesis</h2>
-      <ul class="home-simple-list">
+      <ul class="home-link-list">
         <li>
           <em>Polynomial bounds for automorphism groups of foliations</em>,
           under the supervision of Maurício Corrêa at UFMG.
@@ -112,14 +118,14 @@ layout: default
       </ul>
     </section>
 
-    <section class="home-section">
+    <section class="home-content-section">
       <h2>Presentations</h2>
-      <ul class="home-simple-list">
+      <ul class="home-link-list">
         {% for talk in site.data.talks %}
           <li>
             {{ talk.title }}
-            {% if talk.slides %}<a href="{{ talk.slides }}">Slides</a>{% endif %}
-            {% if talk.video %}<span aria-hidden="true">·</span> <a href="{{ talk.video }}">Video</a>{% endif %}
+            {% if talk.slides %}<a class="compact-link" href="{{ talk.slides }}">Slides</a>{% endif %}
+            {% if talk.video %}<span aria-hidden="true">·</span> <a class="compact-link" href="{{ talk.video }}">Video</a>{% endif %}
           </li>
         {% endfor %}
       </ul>
