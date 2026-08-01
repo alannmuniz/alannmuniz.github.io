@@ -56,7 +56,10 @@ ul, ol { padding-left: 1.35rem; }
   margin-inline: auto;
 }
 
-.narrow { max-width: var(--narrow); }
+.narrow { 
+  max-width: var(--narrow); 
+  margin-inline: auto;
+}
 
 .skip-link {
   position: fixed;
