@@ -263,13 +263,13 @@ ul, ol { padding-left: 1.35rem; }
 }
 
 .profile-card img {
-  width: 164px;
-  height: 164px;
+  width: auto;
+  height: 90%;
   margin: 0.8rem auto 0;
   object-fit: cover;
   image-rendering: auto;
   border: 6px solid var(--cream);
-  border-radius: 50%;
+  border-radius: 5%;
   background: var(--cream);
 }
 
