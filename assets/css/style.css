@@ -9,8 +9,8 @@
   --accent: #9a5a8a;
   --shadow: 0 18px 50px rgba(91, 42, 134, 0.12);
   --radius: 18px;
-  --shell: 950px;
-  --narrow: 950px;
+  --shell: 1000px;
+  --narrow: 900px;
 }
 
 * { box-sizing: border-box; }
