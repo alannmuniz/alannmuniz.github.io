@@ -168,7 +168,7 @@ ul, ol { padding-left: 1.35rem; }
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: minmax(270px, 0.55fr) minmax(0, 1.45fr);
+  grid-template-columns: minmax(270px, 0.35fr) minmax(0, 1.65fr);
   gap: clamp(3rem, 8vw, 7rem);
   align-items: center;
 }
@@ -247,16 +247,17 @@ ul, ol { padding-left: 1.35rem; }
   border-radius: calc(var(--radius) + 8px);
   background: rgba(255,255,255,.72);
   box-shadow: var(--shadow);
+  place-items: center;
 }
 
 .profile-card img {
-  width: 164px;
-  height: 164px;
+  width: 100%;
+  height: auto;
   margin: 0.8rem auto 0;
   object-fit: cover;
   image-rendering: auto;
   border: 6px solid var(--cream);
-  border-radius: 50%;
+  border-radius: 5%;
   background: var(--cream);
 }
 
@@ -291,7 +292,7 @@ ul, ol { padding-left: 1.35rem; }
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 1rem;
 }
 
