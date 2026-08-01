@@ -558,6 +558,7 @@ ul, ol { padding-left: 1.35rem; }
   font-size: 0.82rem;
 }
 
+
 @media (max-width: 900px) {
   .menu-button { display: inline-flex; }
 
@@ -577,7 +578,11 @@ ul, ol { padding-left: 1.35rem; }
   .site-nav.open { display: grid; }
   .site-nav a { padding: 0.75rem; }
 
-  .hero-grid { grid-template-columns: 1fr; }
+  .hero-grid { grid-template-columns: 1fr; 
+             grid-template-areas:
+      "text"
+      "profile";
+             }
   .profile-card { max-width: 360px; }
   .card-grid { grid-template-columns: 1fr; }
   .interest-grid { grid-template-columns: 1fr; }
