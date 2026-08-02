@@ -6,7 +6,7 @@
 - number: 2
   speaker: "Rodrigo Gondim"
   affiliation: "UFRPE"
-  title: "On higher jacobians, Laplace equations and Lefschetz properties"
+  title: "On higher Jacobians, Laplace equations and Lefschetz properties"
 
 - number: 3
   speaker: "Douglas Queiroz"
@@ -92,3 +92,63 @@
   speaker: "Paula Cadavid"
   affiliation: "UFRPE"
   title: "Álgebras de Evolução e Grafos"
+
+- number: 20
+  speaker: "Bárbara Costa"
+  affiliation: "UFRPE"
+  title: "Especulações sobre as propriedades de Lefschetz em álgebras artinianas combinatórias"
+
+- number: 21
+  speaker: "Rodrigo Gondim"
+  affiliation: "UFRPE"
+  title: "Cox-Gorenstein algebras"
+
+- number: 22
+  speaker: "Rafael Holanda"
+  affiliation: "UFPE"
+  title: "Uma demonstração algébrica para o Teorema da Codimensão Um"
+
+- number: 23
+  speaker: "Thyago Souza"
+  affiliation: "UFCG"
+  title: "Alguns resultados recentes na teoria de linkage"
+
+- number: 24
+  speaker: "Êmyle Myrelle"
+  affiliation: "UFPE"
+  title: "Teorema de Serre: Uma Caracterização Homológica para Anéis Regulares"
+
+- number: 25
+  speaker: "Ugo Bruzzo"
+  affiliation: "UFMG"
+  title: "On the stack of stable supermaps"
+
+- number: 26
+  speaker: "Victor Cordeiro"
+  affiliation: "Unicamp"
+  title: "Folheações por curvas em variedades de dimensão 3"
+
+- number: 27
+  speaker: "Felipe Monteiro"
+  affiliation: "Unicamp"
+  title: "Diferenciais Logarítmicas e graus de Bourbaki"
+
+- number: 28
+  speaker: "Thiago Fiel"
+  affiliation: "UFPE"
+  title: "Uma prova para um teorema estendido de Cox usando Koszul-Čech"
+
+- number: 29
+  speaker: "Thaís Dalbelo"
+  affiliation: "UFSCar"
+  title: "The Euler characteristic of Milnor fibers over 2-generic symmetric determinantal varieties"
+
+- number: 30
+  speaker: "Manoel Lemos"
+  affiliation: "UFPE"
+  title: "Essential cocircuits in matroids"
+
+- number: 31
+  speaker: "Gabriel Guedes"
+  affiliation: "UFRPE"
+  title: "Topologias Aritméticas por primos selecionados"
