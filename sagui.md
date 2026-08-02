@@ -2,7 +2,7 @@
 layout: page
 title: SAGüi
 eyebrow: Seminário de Álgebra e Geometria
-description: O SAGüi é um seminário quinzenal do grupo de Álgebra Comutativa e Geometria Algébrica do DMat–UFPE.
+description: O SAGüi é um seminário quinzenal do grupo de Álgebra Comutativa e Geometria Algébrica do DMat–UFPE. Envie um e-mail para entrar na lista de divulgação. 
 permalink: /sagui/
 lang: pt-BR
 ---
