@@ -263,10 +263,10 @@ ul, ol { padding-left: 1.35rem; }
 }
 
 .profile-card img {
-  width: auto;
-  height: 90%;
+  width: 100%;
+  height: auto;
   margin: 0.8rem auto 0;
-  object-fit: cover;
+  object-fit: contain;
   image-rendering: auto;
   border: 6px solid var(--cream);
   border-radius: 5%;
