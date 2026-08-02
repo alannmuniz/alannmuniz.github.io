@@ -167,7 +167,7 @@ ul, ol { padding-left: 1.35rem; }
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: minmax(270px, 0.55fr) minmax(0, 1.45fr);
+  grid-template-columns: minmax(270px, 0.75fr) minmax(0, 1.25fr);
   grid-template-areas: "profile text";
   gap: clamp(3rem, 8vw, 7rem);
   align-items: stretch;
