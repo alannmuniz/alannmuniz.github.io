@@ -7,7 +7,7 @@ permalink: /publications/
 ---
 
 <style>
-  .paper-description { margin-top: .7rem; color: var(--ink); font-size: 1rem; line-height: 1.55; }
+  .paper-description { margin-top: .7rem; color: #71439a; font-size: 1rem; line-height: 1.55; }
   .other-contributions li { margin-bottom: 1.5rem; }
   .other-contributions p { margin-bottom: .4rem; }
 </style>
