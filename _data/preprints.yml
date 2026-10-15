@@ -2,8 +2,10 @@
   title: "Remarks on the second Chern class of a foliation"
   authors: "<strong>Alan Muniz</strong>"
   arxiv: "https://arxiv.org/abs/2601.12558"
+  description: "Bounds the second Chern class of a foliation and the degree of its codimension-two singular scheme."
 
 - year: 2022
   title: "Holomorphic foliations of degree two and arbitrary dimension"
   authors: "Maurício Corrêa and <strong>Alan Muniz</strong>"
   arxiv: "https://arxiv.org/abs/2207.12880"
+  description: "Classifies non-algebraically integrable degree-two foliations on projective spaces of arbitrary dimension."
