@@ -7,6 +7,9 @@
     {% if p.venue %}
       <p class="venue"><em>{{ p.venue }}</em>{% if p.note %}, {{ p.note }}{% endif %}.</p>
     {% endif %}
+    {% if p.description %}
+      <p class="paper-description">{{ p.description | escape }}</p>
+    {% endif %}
     <div class="paper-links">
       {% if p.arxiv %}<a href="{{ p.arxiv }}">arXiv</a>{% endif %}
       {% if p.doi %}<a href="{{ p.doi }}">DOI</a>{% endif %}
