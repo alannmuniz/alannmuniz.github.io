@@ -22,6 +22,13 @@ upcoming:
     role: "Organizing committee member"
     url: "https://sites.google.com/view/veraoufpe2027"
 
+  - title: "III Oficina Pernambucana de Geometria e Álgebra (III OPEGA)"
+    date: "15-19 February 2027"
+    location: "UFPE, Recife, Brazil"
+    role: "Organizing committee member"
+    url: "https://sites.google.com/view/opega2027"
+
+
   - title: "Bandoleros — 10th edition"
     date: "24–26 February 2027"
     location: "IMECC–UNICAMP, Campinas, Brazil"
@@ -33,12 +40,6 @@ upcoming:
     location: "Aracaju, Brazil"
     role: "Organizing committee member"
     url: "https://sites.google.com/view/eneag2027"
-
-  - title: "III Oficina Pernambucana de Geometria e Álgebra (III OPEGA)"
-    date: "2027 — dates to be confirmed"
-    location: "UFPE, Recife, Brazil"
-    role: "Organizing committee member"
-    url: "https://sites.google.com/view/opega2027"
 
 past:
   - title: "16th ALGA Meeting — Commutative Algebra and Algebraic Geometry"
