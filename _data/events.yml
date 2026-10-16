@@ -1,42 +1,126 @@
+# Each event has a title, date, location, role, and official website.
+# Upcoming events with unconfirmed dates are listed last.
+# Bandoleros: the official site labels the tenth edition "2026",
+# but announces 24–26 February 2027. Use the edition number in the title.
+
 upcoming:
-  - title: "Second Brazilian Northeastern Meeting on Commutative Algebra and Algebraic Geometry"
-    date: "April 2027"
-    location: "Aracaju, Brasil"
+  - title: "VII Colóquio de Matemática da Região Nordeste"
+    date: "23–27 November 2026"
+    location: "UFPE, Recife, Brazil"
+    role: "Coordinator of the Singularities thematic area"
+    url: "https://sbm.org.br/coloquio-nordeste-7/"
+
+  - title: "2º Encontro de Folheações Holomorfas no IMEC–UERJ"
+    date: "7–10 December 2026"
+    location: "UERJ, Rio de Janeiro, Brazil"
+    role: "Invited speaker"
+    url: "https://www.even3.com.br/2-efh-ime-uerj-758876"
+
+  - title: "58º Programa de Verão da UFPE"
+    date: "4 January–5 March 2027"
+    location: "UFPE, Recife, Brazil"
+    role: "Organizing committee member"
+    url: "https://sites.google.com/view/veraoufpe2027"
+
+  - title: "Bandoleros — 10th edition"
+    date: "24–26 February 2027"
+    location: "IMECC–UNICAMP, Campinas, Brazil"
+    role: "Invited speaker"
+    url: "https://sites.google.com/unicamp.br/bandoleros/home"
+
+  - title: "Second Brazilian Northeastern Meeting on Commutative Algebra and Algebraic Geometry (ENeAG 2027)"
+    date: "26–30 April 2027"
+    location: "Aracaju, Brazil"
+    role: "Organizing committee member"
+    url: "https://sites.google.com/view/eneag2027"
+
+  - title: "III Oficina Pernambucana de Geometria e Álgebra (III OPEGA)"
+    date: "2027 — dates to be confirmed"
+    location: "UFPE, Recife, Brazil"
+    role: "Organizing committee member"
+    url: "https://sites.google.com/view/opega2027"
 
 past:
-  - title: "II OPEGA"
+  - title: "16th ALGA Meeting — Commutative Algebra and Algebraic Geometry"
+    date: "31 August–4 September 2026"
+    location: "IMPA, Rio de Janeiro, Brazil"
+    role: "Speaker"
+    url: "https://impa.br/evento/16th-alga-meeting-commutative-algebra-and-algebraic-geometry-2/?lang=en"
+
+  - title: "II Oficina Pernambucana de Geometria e Álgebra (II OPEGA)"
     date: "23–27 February 2026"
+    location: "UFPE, Recife, Brazil"
+    role: "Organizing committee member"
     url: "https://sites.google.com/view/opega2026"
 
+  - title: "JOGA 2026 — Jornadas em Geometria Algébrica"
+    date: "5–6 February 2026"
+    location: "UFF, Niterói, Brazil"
+    role: "Speaker"
+    url: "https://sites.google.com/view/geoalgcompluff/joga"
+
   - title: "Bandoleros 2025"
-    date: "9–12 December 2025"
-    url: "https://sites.google.com/unicamp.br/bandoleros"
+    date: "9–11 December 2025"
+    location: "IMECC–UNICAMP, Campinas, Brazil"
+    role: "Invited speaker"
+    url: "https://sites.google.com/unicamp.br/bandoleros/bandoleros-2025"
 
   - title: "Foliations, Complex Geometry, and Painlevé Equations"
     date: "24–28 November 2025"
+    location: "IMPA, Rio de Janeiro, Brazil"
+    role: "Invited speaker"
     url: "https://impa.br/evento/foliations-complex-geometry-and-painleve-equations/"
 
-  - title: "First Brazilian Northeastern Meeting on Commutative Algebra and Algebraic Geometry"
+  - title: "First Brazilian Northeastern Meeting on Commutative Algebra and Algebraic Geometry (ENeAG 2025)"
     date: "17–21 November 2025"
-    url: "https://sites.google.com/view/eneag25"
+    location: "UFPE, Recife, Brazil"
+    role: "Organizing committee member"
+    url: "https://sites.google.com/view/eneag25/home"
 
   - title: "Brazil–Mexico Joint Mathematical Meeting"
     date: "8–12 September 2025"
+    location: "Fortaleza, Brazil"
+    role: "Co-organizer of the thematic session “Holomorphic Foliations and related fields”"
     url: "https://sbm.org.br/jointmeeting-mexico/"
 
   - title: "CIMPA School — Bridgeland Stability and Applications"
     date: "4–15 August 2025"
+    location: "UFSC, Florianópolis, Brazil"
+    role: "Participant"
     url: "https://sites.google.com/view/bridgelandstabilitycimpa/"
 
   - title: "35º Colóquio Brasileiro de Matemática"
     date: "27 July–1 August 2025"
+    location: "IMPA, Rio de Janeiro, Brazil"
+    role: "Co-coordinator of the Holomorphic Foliations thematic session"
     url: "https://impa.br/evento/35o-coloquio-brasileiro-de-matematica/"
 
-  - title: "OPEGA"
+  - title: "I Oficina Pernambucana de Geometria e Álgebra (I OPEGA)"
+    date: "17–21 February 2025"
+    location: "UFPE, Recife, Brazil"
+    role: "Organizing committee member"
     url: "https://sites.google.com/view/opega"
 
-  - title: "BRAGui"
+  - title: "BRAGüi"
+    date: "17–18 October 2024"
+    location: "UFPE, Recife, Brazil"
+    role: "Organizer"
     url: "https://sites.google.com/view/bragui/"
 
-  - title: "Gatto’s 60th"
+  - title: "3rd International Meeting of Young Researchers in Singularity Theory and Related Fields"
+    date: "9–11 October 2024"
+    location: "UFLA, Lavras, Brazil"
+    role: "Scientific committee member"
+    url: "https://yrs.icmc.usp.br/"
+
+  - title: "From Schubert Calculus to Representation Theory — Gatto’s 60th Birthday"
+    date: "2–4 September 2024"
+    location: "UFS, São Cristóvão (Aracaju metropolitan area), Brazil"
+    role: "Invited speaker"
     url: "https://sites.google.com/view/gatto60th/main"
+
+  - title: "LEGAL 2024 — Liberdade em Geometria Algébrica"
+    date: "11–15 March 2024"
+    location: "Sítio Assunção, Teresópolis, Brazil"
+    role: "Contributed-talk speaker"
+    url: "https://sites.google.com/view/geoalgcompluff/legal/edições-anteriores/legal-2024/legal-2024-english"
