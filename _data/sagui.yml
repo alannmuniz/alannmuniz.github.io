@@ -307,7 +307,7 @@
  date_label: "6 de outubro de 2026"
  abstract: "<p>Neste trabalho [2], estabelecemos condições sob as quais uma família \\(f_t\\) de funções, possivelmente com singularidades não isoladas, definida sobre uma variedade tórica, dá origem a uma família Whitney equisingular de hipersuperfícies \\(f_t^{-1}(0)\\). Em um trabalho recente [1], Eyral e Oka estabeleceram um importante arcabouço para o estudo da equisingularidade de Whitney em famílias com singularidades não isoladas em \\(\\mathbb{C}^n\\). Nossa abordagem baseia-se diretamente em seus conceitos, tais como admissibilidade, controle local e o papel das fronteiras de Newton, estendendo-os ao contexto tórico. No entanto, como as variedades tóricas podem apresentar conjuntos singulares arbitrários, essas extensões, por si só, não são suficientes. Para superar essa limitação, combinamos o arcabouço desenvolvido por eles com propriedades fundamentais das estratificações de Whitney e dos morfismos finitos, estendendo, assim, a teoria clássica ao contexto mais amplo das variedades tóricas. Além disso, quando \\(\\mathbb{C}^n\\) é visto como uma variedade tórica, nossas condições recuperam exatamente aquelas obtidas por Eyral e Oka.</p><p><strong>Referências</strong></p><ol><li>C. Eyral and M. Oka, <em>Non-compact Newton boundary and Whitney equisingularity for non-isolated singularities</em>, Advances in Mathematics, 316 (2017), 94–113.</li><li>D. N. Santos and T. M. Dalbelo, <em>Whitney equisingularity for families of hypersurfaces in toric varieties</em>, arXiv:2510.04177 (2025). <a href=\"https://arxiv.org/abs/2510.04177\">arXiv</a>.</li></ol>"
 
-- number: 35outubro
+- number: 35
  speaker: "Eudes Naziazeno"
  affiliation: "UFPE"
  title: "Vai chegar o exterminador do futuro?"
